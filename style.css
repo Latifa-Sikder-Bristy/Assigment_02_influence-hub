@@ -23,6 +23,7 @@ header{
 main{
     display: flex;
     padding-top: 7%;
+    margin-bottom: 20px;
 }
 .top-left-section,
 .top-right-section{
@@ -48,6 +49,7 @@ a{
 h4{
     font-size: 30px;
     text-align: center;
+    padding-top: 20px;
 }
 .items-section>ul{
     display: grid;
@@ -89,10 +91,14 @@ footer {
     display: flex;
     justify-content: right;
     margin: 30px;
-
 }
 main:hover .top-right-section{
-    transform: scale(.5,.5) skew(140deg);
+    transform: scale(1.5,1.5);
+}
+.video{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
 }
 
 
